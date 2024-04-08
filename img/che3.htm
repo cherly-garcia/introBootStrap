@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es-es" lang="es-es" dir="ltr">
+  <head>
+  <!-- Definir la ventana grafica -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  	<link href="https://www.ciset.es/apple-touch-icon.png" rel="apple-touch-icon" />
+	<link href="https://www.ciset.es/icon-hires.png" rel="icon" sizes="192x192" />
+	<link href="https://www.ciset.es/icon-normal.png" rel="icon" sizes="144x144" />
+        <base href="https://www.ciset.es/glosario/472-red-lan" />
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="keywords" content="Red LAN, red de área local, Red WAN, red, LAN, WAN" />
+	<meta name="author" content="Ciset Gestor" />
+	<meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+	<meta name="description" content="Una Red LAN es una red de área local que conecta diferentes ordenadores en un área pequeña, lo que permite a los usuarios enviar, compartir y recibir archivos" />
+	<meta name="generator" content="Joomla! - Open Source Content Management" />
+	<title>Red LAN - red de área local</title>
+	<link href="https://www.ciset.es/glosario/472-red-lan" rel="canonical" />
+	<link href="/templates/theme3092/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+	<link href="/media/jui/css/chosen.css?5d9742fbed95d2d4c1731ae4340290fa" rel="stylesheet" type="text/css" />
+	<link href="/templates/theme3092/css/layout.css" rel="stylesheet" type="text/css" />
+	<link href="/templates/theme3092/css/jquery.fancybox-all.css" rel="stylesheet" type="text/css" />
+	<link href="/templates/theme3092/css/general-ui.css" rel="stylesheet" type="text/css" />
+	<link href="/templates/theme3092/css/material-design.css" rel="stylesheet" type="text/css" />
+	<link href="//fonts.googleapis.com/css?family=Ubuntu:400,300,300italic,400italic,500,500italic,700,700italic" rel="stylesheet" type="text/css" />
+	<link href="/templates/theme3092/css/template-v43.css" rel="stylesheet" type="text/css" />
+	<link href="/components/com_sppagebuilder/assets/css/font-awesome-5.min.css" rel="stylesheet" type="text/css" />
+	<link href="/components/com_sppagebuilder/assets/css/font-awesome-v4-shims.css" rel="stylesheet" type="text/css" />
+	<link href="/components/com_sppagebuilder/assets/css/animate.min.css" rel="stylesheet" type="text/css" />
+	<link href="/components/com_sppagebuilder/assets/css/sppagebuilder.css" rel="stylesheet" type="text/css" />
+	<link href="/components/com_sppagebuilder/assets/css/magnific-popup.css" rel="stylesheet" type="text/css" />
+	<link href="/templates/theme3092/html/mod_icemegamenu/css/default_icemegamenu.css" rel="stylesheet" type="text/css" />
+	<link href="/templates/theme3092/html/mod_icemegamenu/css/default_icemegamenu-reponsive.css" rel="stylesheet" type="text/css" />
+	<link href="/templates/theme3092/html/mod_icemegamenu/css/navbar-v2.css" rel="stylesheet" type="text/css" />
+	<link href="/plugins/system/cookiespolicynotificationbar/assets/css/cpnb-style.min.css" rel="stylesheet" media="all" type="text/css" />
+	<link href="/plugins/system/cookiespolicynotificationbar/assets/css/balloon.min.css" rel="stylesheet" media="all" type="text/css" />
+	<style type="text/css">
+/* BEGIN: Cookies Policy Notification Bar - J! system plugin (Powered by: Web357.com) */
+.cpnb-outer { border-color: rgba(232, 232, 232, 0); }
+.cpnb-outer.cpnb-div-position-top { border-bottom-width: 0px; }
+.cpnb-outer.cpnb-div-position-bottom { border-top-width: 0px; }
+.cpnb-outer.cpnb-div-position-top-left, .cpnb-outer.cpnb-div-position-top-right, .cpnb-outer.cpnb-div-position-bottom-left, .cpnb-outer.cpnb-div-position-bottom-right { border-width: 0px; }
+.cpnb-message { color: #1f1f1f; }
+.cpnb-message a { color: #0c65e3 }
+.cpnb-button, .cpnb-button-ok, .cpnb-m-enableAllButton { -webkit-border-radius: 0px; -moz-border-radius: 0px; border-radius: 0px; font-size: 15px; color: #ffffff; background-color: rgba(17, 61, 143, 1); }
+.cpnb-button:hover, .cpnb-button:focus, .cpnb-button-ok:hover, .cpnb-button-ok:focus, .cpnb-m-enableAllButton:hover, .cpnb-m-enableAllButton:focus { color: #ffffff; background-color: rgba(3, 30, 84, 1); }
+.cpnb-button-decline, .cpnb-button-delete, .cpnb-button-decline-modal, .cpnb-m-DeclineAllButton { color: #ffffff; background-color: rgba(17, 61, 143, 1); }
+.cpnb-button-decline:hover, .cpnb-button-decline:focus, .cpnb-button-delete:hover, .cpnb-button-delete:focus, .cpnb-button-decline-modal:hover, .cpnb-button-decline-modal:focus, .cpnb-m-DeclineAllButton:hover, .cpnb-m-DeclineAllButton:focus { color: #ffffff; background-color: rgba(3, 30, 84, 1); }
+.cpnb-button-cancel, .cpnb-button-reload, .cpnb-button-cancel-modal { color: #ffffff; background-color: rgba(17, 61, 143, 1); }
+.cpnb-button-cancel:hover, .cpnb-button-cancel:focus, .cpnb-button-reload:hover, .cpnb-button-reload:focus, .cpnb-button-cancel-modal:hover, .cpnb-button-cancel-modal:focus { color: #ffffff; background-color: rgba(3, 30, 84, 1); }
+.cpnb-button-settings, .cpnb-button-settings-modal { color: #ffffff; background-color: rgba(17, 61, 143, 1); }
+.cpnb-button-settings:hover, .cpnb-button-settings:focus, .cpnb-button-settings-modal:hover, .cpnb-button-settings-modal:focus { color: #ffffff; background-color: rgba(3, 30, 84, 1); }
+.cpnb-button-more-default, .cpnb-button-more-modal { color: #ffffff; background-color: rgba(17, 61, 143, 1); }
+.cpnb-button-more-default:hover, .cpnb-button-more-modal:hover, .cpnb-button-more-default:focus, .cpnb-button-more-modal:focus { color: #ffffff; background-color: rgba(3, 30, 84, 1); }
+.cpnb-m-SaveChangesButton { color: #ffffff; background-color: rgba(17, 61, 143, 1); }
+.cpnb-m-SaveChangesButton:hover, .cpnb-m-SaveChangesButton:focus { color: #ffffff; background-color: rgba(3, 30, 84, 1); }
+/* center alignment */
+.cpnb-message { text-align: center; float: none; display: inline-block; }
+.cpnb-buttons { display: inline-block; float: none; margin-left: 20px; }
+@media (max-width: 1580px) {
+  .cpnb-message { float: none; display: block; width: 100%; display: block; clear: both; margin-bottom: 15px; }
+  .cpnb-buttons { float: none; display: block; width: 100%; clear: both; text-align: center; margin-top: 0; margin-left: 0; margin-bottom: 10px; right: 0; position: relative; }
+}
+@media only screen and (max-width: 600px) {
+.cpnb-left-menu-toggle::after, .cpnb-left-menu-toggle-button {
+content: "Categories";
+}
+}
+/* custom css */
+/*#cpnb-accept-btn { width: 95%; line-height: 40px; font-size: 18px; margin: 20px 0 15px 0;}*/
+.cpnb-message {width: 95%;text-align: justify!important;line-height: 1.5em; padding-top: 20px!important;}
+
+/* END: Cookies Policy Notification Bar - J! system plugin (Powered by: Web357.com) */
+
+	</style>
+	<script type="application/json" class="joomla-script-options new">{"csrf.token":"0a8cfaca71cf898fb8de55577697790a","system.paths":{"root":"","base":""}}</script>
+	<script src="/media/jui/js/jquery.min.js?5d9742fbed95d2d4c1731ae4340290fa" type="text/javascript"></script>
+	<script src="/media/jui/js/jquery-noconflict.js?5d9742fbed95d2d4c1731ae4340290fa" type="text/javascript"></script>
+	<script src="/media/jui/js/jquery-migrate.min.js?5d9742fbed95d2d4c1731ae4340290fa" type="text/javascript"></script>
+	<script src="/media/system/js/caption.js?5d9742fbed95d2d4c1731ae4340290fa" type="text/javascript"></script>
+	<script src="/media/jui/js/bootstrap.min.js?5d9742fbed95d2d4c1731ae4340290fa" type="text/javascript"></script>
+	<script src="/media/system/js/core.js?5d9742fbed95d2d4c1731ae4340290fa" type="text/javascript"></script>
+	<script src="/media/jui/js/chosen.jquery.min.js?5d9742fbed95d2d4c1731ae4340290fa" type="text/javascript"></script>
+	<script src="/components/com_sppagebuilder/assets/js/jquery.parallax.js?4049a7f8a0753d253931e43d3f0d73f4" type="text/javascript"></script>
+	<script src="/components/com_sppagebuilder/assets/js/sppagebuilder.js?4049a7f8a0753d253931e43d3f0d73f4" defer="defer" type="text/javascript"></script>
+	<script src="/components/com_sppagebuilder/assets/js/jquery.magnific-popup.min.js" type="text/javascript"></script>
+	<script src="/templates/theme3092/html/mod_icemegamenu/js/menu.js" type="text/javascript"></script>
+	<script src="/templates/theme3092/html/mod_icemegamenu/js/jquery.rd-navbar.js" type="text/javascript"></script>
+	<script src="/plugins/system/cookiespolicynotificationbar/assets/js/cookies-policy-notification-bar.min.js" type="text/javascript"></script>
+	<script type="text/javascript">
+jQuery(window).on('load',  function() {
+				new JCaption('img.caption');
+			});jQuery(function($){ initTooltips(); $("body").on("subform-row-add", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(".hasTooltip").tooltip({"html": true,"container": "body"});} });
+	jQuery(function ($) {
+		initChosen();
+		$("body").on("subform-row-add", initChosen);
+
+		function initChosen(event, container)
+		{
+			container = container || document;
+			$(container).find("select").chosen({"disable_search_threshold":10,"search_contains":true,"allow_single_deselect":true,"placeholder_text_multiple":"Escriba o seleccione algunas opciones","placeholder_text_single":"Selecione una opci\u00f3n","no_results_text":"Sin resultados que coincidan"});
+		}
+	});
+	jQuery(document).ready(function($){
+	 RDMobilemenu_autoinit("#icemegamenu");
+})
+
+// BEGIN: Cookies Policy Notification Bar - J! system plugin (Powered by: Web357.com)
+var cpnb_config = {"w357_joomla_caching":"1","w357_position":"bottom-right","w357_show_close_x_icon":"0","w357_hide_after_time":"display_always","w357_duration":"60","w357_animate_duration":"1000","w357_limit":"0","w357_message":"Utilizamos cookies propias y de terceros para asegurar el correcto funcionamiento del sitio web, así como para monitorizar el tráfico con el fin de proporcionar una mejor experiencia de navegación al usuario. \u003Cbr\/\u003EPuede aceptar o configurar las cookies, haciendo clic en los siguientes botones. Si desea saber más sobre el uso de las cookies, consulte nuestra \u003Ca  href=\u0022\/politica-de-cookies\u0022\u003EPolítica de cookies\u003C\/a\u003E\u003Cbr\/\u003E","w357_display_ok_btn":"1","w357_buttonText":"Aceptar","w357_display_decline_btn":"1","w357_buttonDeclineText":"Rechazar","w357_display_cancel_btn":"0","w357_buttonCancelText":"Cancelar","w357_display_settings_btn":"1","w357_buttonSettingsText":"Configurar","w357_buttonMoreText":"Más información","w357_buttonMoreLink":"","w357_display_more_info_btn":"0","w357_fontColor":"#1f1f1f","w357_linkColor":"#0c65e3","w357_fontSize":"16px","w357_backgroundColor":"rgba(230, 230, 230, 1)","w357_borderWidth":"0","w357_body_cover":"1","w357_overlay_state":"0","w357_overlay_color":"rgba(10, 10, 10, 0.3)","w357_height":"360px","w357_cookie_name":"cookiesDirective","w357_link_target":"_self","w357_popup_width":"800","w357_popup_height":"600","w357_customText":"\u003Ch1\u003EPolítica de cookies\u003C\/h1\u003E\r\n\u003Chr \/\u003E\r\n\u003Ch3\u003EUso General\u003C\/h3\u003E\r\n\u003Cp\u003EUso general\u003Cbr \/\u003EUtilizamos cookies, píxeles de seguimiento y tecnologías relacionadas en nuestro sitio web. Las cookies son pequeños archivos de datos que ofrece nuestra plataforma y se almacenan en su dispositivo. Nuestro sitio utiliza cookies que dejamos caer nosotros o terceros para una variedad de propósitos, incluido el funcionamiento y la personalización del sitio web. Además, las cookies también se pueden usar para rastrear cómo usa el sitio para orientarle anuncios en otros sitios web.\u003C\/p\u003E\r\n\u003Ch3\u003ETerceros\u003C\/h3\u003E\r\n\u003Cp\u003ENuestro sitio web utiliza los distintos servicios de terceros. Mediante el uso de nuestro sitio web, estos servicios pueden colocar cookies anónimas en el navegador del visitante y pueden enviar sus propias cookies al archivo de cookies del visitante. Algunos de estos servicios incluyen, entre otros: Google, Facebook, Twitter, Adroll, MailChimp, Sucuri, Intercom y otras redes sociales, agencias de publicidad, firewalls de seguridad, empresas de análisis y proveedores de servicios. Estos servicios también pueden recopilar y utilizar identificadores anónimos como la dirección IP, la referencia HTTP, el identificador único de dispositivo y otra información de identificación no personal y registros del servidor.\u003C\/p\u003E","w357_more_info_btn_type":"custom_text","w357_blockCookies":"1","w357_autoAcceptAfterScrolling":"0","w357_numOfScrolledPixelsBeforeAutoAccept":"300","w357_reloadPageAfterAccept":"0","w357_enableConfirmationAlerts":"0","w357_enableConfirmationAlertsForAcceptBtn":0,"w357_enableConfirmationAlertsForDeclineBtn":0,"w357_enableConfirmationAlertsForDeleteBtn":0,"w357_confirm_allow_msg":"Realizar esta acción habilitará todas las cookies establecidas por este sitio web. ¿Está seguro de que desea habilitar todas las cookies en este sitio web?","w357_confirm_delete_msg":"Al realizar esta acción, se eliminarán todas las cookies establecidas por este sitio web. ¿Está seguro de que desea deshabilitar y eliminar todas las cookies de su navegador?","w357_show_in_iframes":"0","w357_shortcode_is_enabled_on_this_page":0,"w357_base_url":"https:\/\/www.ciset.es\/","w357_current_url":"https:\/\/www.ciset.es\/glosario\/472-red-lan","w357_always_display":"0","w357_show_notification_bar":true,"w357_expiration_cookieSettings":"365","w357_expiration_cookieAccept":"365","w357_expiration_cookieDecline":"180","w357_expiration_cookieCancel":"3","w357_accept_button_class_notification_bar":"cpnb-accept-btn","w357_decline_button_class_notification_bar":"cpnb-decline-btn","w357_cancel_button_class_notification_bar":"cpnb-cancel-btn","w357_settings_button_class_notification_bar":"cpnb-settings-btn","w357_moreinfo_button_class_notification_bar":"cpnb-moreinfo-btn","w357_accept_button_class_notification_bar_modal_window":"cpnb-accept-btn-m","w357_decline_button_class_notification_bar_modal_window":"cpnb-decline-btn-m","w357_save_button_class_notification_bar_modal_window":"cpnb-save-btn-m","w357_buttons_ordering":"[\u0022ok\u0022,\u0022decline\u0022,\u0022cancel\u0022,\u0022moreinfo\u0022,\u0022settings\u0022]"};
+// END: Cookies Policy Notification Bar - J! system plugin (Powered by: Web357.com)
+
+
+// BEGIN: Cookies Policy Notification Bar - J! system plugin (Powered by: Web357.com)
+var cpnb_cookiesCategories = {"cookie_categories_group0":{"cookie_category_id":"required-cookies","cookie_category_name":"Funcionales","cookie_category_description":"Las cookies obligatorias o funcionales se relacionan con la funcionalidad de nuestros sitios web y nos permiten mejorar el servicio que le ofrecemos a través de nuestros sitios web, por ejemplo, permitiéndole llevar información a través de las páginas de nuestro sitio web para evitar que tenga que volver a ingresar información o reconociendo sus preferencias cuando regrese a nuestro sitio web.","cookie_category_checked_by_default":"2","cookie_category_status":"1"},"cookie_categories_group1":{"cookie_category_id":"analytical-cookies","cookie_category_name":"Estadística","cookie_category_description":"Las cookies analíticas nos permiten reconocer y contar el número de visitantes a nuestro sitio web, ver cómo se mueven los visitantes por el sitio web cuando lo están usando y registrar qué contenido ven los espectadores y en qué están interesados. Esto nos ayuda a determinar con qué frecuencia se visitan páginas y anuncios y para determinar las áreas más populares de nuestro sitio web. ","cookie_category_checked_by_default":"0","cookie_category_status":"1"},"cookie_categories_group2":{"cookie_category_id":"social-media-cookies","cookie_category_name":"Redes Sociales","cookie_category_description":"Estas cookies le permiten compartir el contenido del sitio web con plataformas de redes sociales (por ejemplo, Facebook, Twitter, Instagram). No tenemos control sobre estas cookies, ya que las establecen las propias plataformas de redes sociales.","cookie_category_checked_by_default":"1","cookie_category_status":"0"}};
+// END: Cookies Policy Notification Bar - J! system plugin (Powered by: Web357.com)
+
+
+// BEGIN: Cookies Policy Notification Bar - J! system plugin (Powered by: Web357.com)
+var cpnb_manager = {"w357_m_modalState":"1","w357_m_floatButtonState":"1","w357_m_floatButtonPosition":"bottom_left","w357_m_HashLink":"cookies","w357_m_modal_menuItemSelectedBgColor":"rgba(200, 200, 200, 1)","w357_m_saveChangesButtonColorAfterChange":"rgba(13, 92, 45, 1)","w357_m_floatButtonIconSrc":"https:\/\/www.ciset.es\/media\/plg_system_cookiespolicynotificationbar\/icons\/cpnb-cookies-manager-icon-1-64x64.png","w357_m_FloatButtonIconType":"image","w357_m_FloatButtonIconFontAwesomeName":"fas fa-cookie-bite","w357_m_FloatButtonIconFontAwesomeSize":"fa-lg","w357_m_FloatButtonIconFontAwesomeColor":"rgba(61, 47, 44, 0.84)","w357_m_FloatButtonIconUikitName":"cog","w357_m_FloatButtonIconUikitSize":"1","w357_m_FloatButtonIconUikitColor":"rgba(61, 47, 44, 0.84)","w357_m_floatButtonText":"Configurar Cookies","w357_m_modalHeadingText":"Configuración avanzada de cookies","w357_m_checkboxText":"Habilitado","w357_m_lockedText":"Bloqueado","w357_m_EnableAllButtonText":"Permitir todas las cookies","w357_m_DeclineAllButtonText":"Rechazar todas las cookies","w357_m_SaveChangesButtonText":"Guadar configuración","w357_m_confirmationAlertRequiredCookies":"Estas cookies son estrictamente necesarias para este sitio web. No puede deshabilitar esta categoría de cookies."};
+// END: Cookies Policy Notification Bar - J! system plugin (Powered by: Web357.com)
+
+	</script>
+	<!-- Start: Datos Estructurados de Google -->
+			 <script type="application/ld+json" data-type="gsd"> { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [ { "@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://www.ciset.es/" }, { "@type": "ListItem", "position": 2, "name": "Glosario", "item": "https://www.ciset.es/glosario" }, { "@type": "ListItem", "position": 3, "name": "Red LAN - Local Area Network", "item": "https://www.ciset.es/glosario/472-red-lan" } ] } </script>
+			<!-- End: Datos Estructurados de Google -->
+
+	
+<!-- Start: Google Structured Data -->        
+<script type="application/ld+json">{
+"@context": "https:\/\/schema.org",
+"@type": "WebSite",
+"name": "CISET. Centro de Innovación",
+"description": "Informática para Empresas",
+"url": "https:\/\/www.ciset.es",
+"alternateName": "CISET. Informática para Empresas" }
+</script> 
+
+<script type="application/ld+json"> { 
+"@context": "https:\/\/schema.org",
+"@type": "Organization",
+"name": "CISET. Centro de Innovación",
+"url": "https:\/\/www.ciset.es",
+"logo": "https:\/\/www.ciset.es\/images\/img-template\/CISET.png",
+"contactPoint" : [
+    { "@type" : "ContactPoint",
+      "telephone" : "+34-91-1460030",
+	    "contactType" : "customer service"
+    } ],
+"sameAs": [ 
+ "https:\/\/www.facebook.com\/CISET.CentroInnovacion",
+ "https:\/\/twitter.com\/cisetsolutions",
+ "https:\/\/www.linkedin.com\/company\/ciset"
+ ]
+ } 
+</script>
+<!-- End: Google Structured Data -->
+
+	<!-- INCLUIR CODIGO GEO TAGS -->	
+	<!-- desactivadas por petición de EMI
+	<meta name="DC.title" content="CISET Centro de Innovación" />
+	<meta name="geo.region" content="ES-MD" />
+	<meta name="geo.placename" content="Legan&eacute;s" />
+	<meta name="geo.position" content="40.35319;-3.74431" />
+	<meta name="ICBM" content="40.35319, -3.74431" />
+	-->
+
+<!-- Start: CODE campaign Landing -->
+<!-- Xandr Universal Pixel - Initialization (include only once per page) -->
+<script>
+!function(e,i){if(!e.pixie){var n=e.pixie=function(e,i,a){n.actionQueue.push({action:e,actionValue:i,params:a})};n.actionQueue=[];var a=i.createElement("script");a.async=!0,a.src="//acdn.adnxs.com/dmp/up/pixie.js";var t=i.getElementsByTagName("head")[0];t.insertBefore(a,t.firstChild)}}(window,document);
+pixie('init', 'ed5603ff-0b02-4c27-abe0-d89f6bcaed62');
+</script>
+
+<!-- Xandr Universal Pixel - PageView Event -->
+<script>
+  pixie('event', 'PageView');
+</script>
+<noscript><img width="1" height="1" style="display:none;" src="//ib.adnxs.com/pixie?pi=ed5603ff-0b02-4c27-abe0-d89f6bcaed62&e=PageView&script=0" /></noscript>
+<!-- End: CODE campaign Landing -->
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-X35SHR55Z9"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-X35SHR55Z9');
+</script>
+
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-60WXK1FT4X"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-60WXK1FT4X');
+</script>
+
+
+
+<!-- Global etiqueta  campañas linkedin -->
+<script type="text/javascript">
+_linkedin_partner_id = "4120746";
+window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
+window._linkedin_data_partner_ids.push(_linkedin_partner_id);
+</script><script type="text/javascript">
+(function(l) {
+if (!l){window.lintrk = function(a,b){window.lintrk.q.push([a,b])};
+window.lintrk.q=[]}
+var s = document.getElementsByTagName("script")[0];
+var b = document.createElement("script");
+b.type = "text/javascript";b.async = true;
+b.src = https://snap.licdn.com/li.lms-analytics/insight.min.js;
+s.parentNode.insertBefore(b, s);})(window.lintrk);
+</script>
+<noscript>
+<img height="1" width="1" style="display:none;" alt="" src=https://px.ads.linkedin.com/collect/?pid=4120746&fmt=gif />
+</noscript>
+
+
+  </head>
+  <body class="body__ option-com_content view-article task- itemid-1401">
+	<!--**** CODIGOS SEGUIMIENTOS GOOGLE ****-->
+	<!-- CODIGO GOOGLE ADWORDS FORMULARIOS MANTENIMIENTO INFORMATICO Y AGRADECIMIENTO -->
+					<!-- CODIGO GOOGLE ADWORDS FORMULARIOS CONTACTO GENERAL Y AGRADECIMIENTO -->
+				
+
+	<!--**** FIN CODIGOS SEGUIMIENTOS GOOGLE ****-->
+	
+        <!--**** CODIGO con ERROR funtion loader dejar cometado ****-->
+    <!--  -->
+    <!-- Body -->
+    <div id="wrapper">
+      <div class="wrapper-inner">
+                        <!-- Top -->
+        <div id="top">
+          <div class="row-container">
+            <div class="menu-container">
+              <div class="container-fluid">
+                <div class="row-fluid">
+                  <!-- Logo -->
+                  <div id="logo" class="span2">
+                    <a href="https://www.ciset.es/">
+                                            <img src="/images/img-template/CISET.png" width="200" height="50" alt="CISET. Centro de Innovación" title="CISET. Centro de Innovación">
+                                          </a>
+                  </div>
+                  <nav class="moduletable mainmenu menuprincipal  span10"><div class="module_container">
+<div class="icemegamenu">
+	<ul id="icemegamenu">
+		<li id="iceMenu_1440" class="iceMenuLiLevel_1 ">
+			<a href="/" class=" iceMenuTitle ">
+				<span class="icemega_title icemega_nosubtitle">Inicio</span>
+			</a>
+		</li>
+		<li id="iceMenu_1441" class="iceMenuLiLevel_1 ">
+			<a href="/mantenimiento-informatico-empresas" class=" iceMenuTitle ">
+				<span class="icemega_title icemega_nosubtitle">Mantenimiento informático</span>
+			</a>
+		</li>
+		<li id="iceMenu_1442" class="iceMenuLiLevel_1 ">
+			<a href="/publicaciones/glosario" class=" iceMenuTitle ">
+				<span class="icemega_title icemega_nosubtitle">Glosario</span>
+			</a>
+		</li>
+	</ul>
+</div>
+
+
+<script type="text/javascript">
+	jQuery(document).ready(function(){
+		var browser_width1 = jQuery(window).width();
+		jQuery("#icemegamenu").find(".icesubMenu").each(function(index){
+			var offset1 = jQuery(this).offset();
+			var xwidth1 = offset1.left + jQuery(this).width();
+			if(xwidth1 >= browser_width1){
+				jQuery(this).addClass("ice_righttoleft");
+			}
+		});
+		
+	})
+	jQuery(window).resize(function() {
+		var browser_width = jQuery(window).width();
+		jQuery("#icemegamenu").find(".icesubMenu").removeClass("ice_righttoleft").each(function(index){
+			var offset = jQuery(this).offset();
+			var xwidth = offset.left + jQuery(this).width();
+			if(xwidth >= browser_width){
+				jQuery(this).addClass("ice_righttoleft");
+			}
+		});
+	});
+</script></div></nav>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        		        <!-- Header -->
+        		 <!-- Header banner-->
+                                                        <!-- Main Content row -->
+        <div id="content">
+          <div class="row-container">
+            <div class="container-fluid">
+                            <div class="content-inner row-fluid">   
+                       
+                <div id="component" class="span12">
+                  <main role="main">    
+                                        <div id="main_component">  
+                    <div id="system-message-container">
+	</div>
+     
+                    <article class="page-item page-item__">
+		<header class="item_header">
+		<h1 class="item_title">Red LAN - Local Area Network</h1>	</header>
+		<div class="item_fulltext"><p style="text-align: center;">&nbsp;</p>
+<p><div class="mod-custom mod-custom__custommod-header"  style="background-image: url(/images/servicios/mantenimiento-informatico-empresas-madrid.jpg)" >
+	<div style="background: rgba(255, 255, 255, 0.73); width: 92%; padding: 10px; margin: 0px auto;">
+<h2 style="text-align: center; color: #0054a6; font-size: 2rem;"><strong>SOPORTE INFORMÁTICO A EMPRESAS</strong></h2>
+<h3 style="text-align: center;">Un servicio a la medida de las necesidades de cada empresa</h3>
+<ul>
+<li><strong>Asistencia informática ilimitada con cuota mensual fija</strong></li>
+<li><strong>Help Desk especializado multilingüe</strong></li>
+<li><strong>Asistencia presencial inmediata ante incidencias críticas</strong></li>
+<li><strong>Acuerdos de nivel de servicio (SLAs) en tiempos objetivos de resolución</strong></li>
+<li><strong>Contratos con precios competitivos sin compromiso de permanencia</strong></li>
+</ul>
+<h4 style="text-align: center;"><span style="color: #0054a6;">¿Satisfecho con la calidad de servicio de su proveedor TI? Consulte nuestro servicio de <a href="/mantenimiento-informatico-empresas"><strong>Mantenimiento informático empresas</strong></a></span></h4>
+</div></div></p>
+<h2 class="title-glosario">Definición de Red LAN</h2>
+<p style="text-align: justify;"><strong><img style="margin-bottom: 20px; margin-left: 20px; float: right;" title="Red LAN" src="/images/Glosario/RedLAN.jpg" alt="Red LAN" />LAN</strong> son las siglas de "<em><strong>Local Area Network</strong></em>", es decir, <em><strong>Red de área local</strong></em>.</p>
+<p style="text-align: justify;">Una Red LAN <strong>conecta</strong> diferentes ordenadores en un área pequeña, como un edificio o una habitación, lo que permite a los usuarios enviar, compartir y recibir archivos.</p>
+<p style="text-align: justify;">Un sistema de redes LAN conectadas mediante líneas telefónicas se denomina <strong><em>WAN</em></strong> "<strong><em>Wide-Area Network</em></strong>", es decir, es una <strong>red de área ancha</strong>.</p>
+<p>Cada ordenador individual conectado a una LAN se denomina "<strong>nodo</strong>", el cual tiene su propia CPU.</p>
+<p>&nbsp;</p>
+<p style="text-align: justify;">Si estás pensando en dotar a tu empresa de nuevos equipos, dispositivos o soluciones informáticas, CISET cuentas con múltiples soluciones de financiación y <a href="/soluciones/renting-informatico-y-tecnologico">renting tecnológico</a>.&nbsp;<a title="Contacto" href="/contacto" target="_self">Contacta</a> con nuestro departamento comercial para obtener más información sobre las opciones y promociones. También puede&nbsp;consultar directamente nuestro apartado de <a title="Servicios informáticos" href="/mantenimiento-informatico-empresas">Servicios- Servicios informáticos</a>.</p>
+<p>&nbsp;</p>
+<p><a title="asesoría gestoría" href="https://www.asesoriasempresa.es/buscador-asesoria-gestoria?utm_source=CISET&amp;utm_medium=banner" target="_blank" rel="noopener"><img style="display: block; margin-left: auto; margin-right: auto;" src="https://img.mailinblue.com/2638933/images/rnb/original/5efafb76f6bc9a995704dca9.png" alt="" width="672" height="79" /></a></p>
+<p>&nbsp;</p>
+<p><div class="mod-custom mod-custom__"  >
+	<!-- Codigo ADSENSE -->
+<script src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" async="" type="text/javascript"></script>
+<script type="text/javascript">(adsbygoogle = window.adsbygoogle || []).push({
+          google_ad_client: "ca-pub-1099048430306031",
+          enable_page_level_ads: true
+     });</script>
+<script src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" async="" type="text/javascript"></script>
+<script src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" async="" type="text/javascript"></script>
+<!-- CISET -->
+<script src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" async="" type="text/javascript"></script>
+<!-- CISET -->
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- CISET -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-1099048430306031"
+     data-ad-slot="7240365118"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div></p> </div>
+		
+	
+	<!-- Social Sharing -->
+	 
+	<!-- Pagination -->
+	</article>   
+                    										<!-- Position-per -->
+					<div id="Position-per">
+					  <div class="row-container">
+						<div class="container-fluid">
+						  <div class="row-fluid">
+							<div class="moduletable   span12"><div class="module_container"><header><h4 class="moduleTitle ">Artículos relacionados</h4></header><div class="tagssimilar">
+	<ul>
+			<li>
+							<a href="/publicaciones/blog/866-el-mantenimiento-informatico-mas-que-un-gasto-una-inversion">
+											Mantenimiento informático, más que un gasto, una inversión									</a>
+					</li>
+			<li>
+							<a href="/glosario/442-fibra-optica">
+											Fibra óptica - Máxima velocidad de conexión									</a>
+					</li>
+			<li>
+							<a href="/publicaciones/noticias/802-5g-privado-la-industria-4-0">
+											5G privado, la Industria 4.0									</a>
+					</li>
+			<li>
+							<a href="/glosario/494-vpn">
+											VPN - Red Privada Virtual									</a>
+					</li>
+			<li>
+							<a href="/publicaciones/noticias/842-importante-trabajar-con-empresa-mantenimiento-informatico">
+											¿Por qué es importante trabajar con una empresa de mantenimiento informático?									</a>
+					</li>
+			<li>
+							<a href="/publicaciones/blog/338-mejora-la-cobertura-y-velocidad-de-tu-red-wifi">
+											Mejora la cobertura y rendimiento de tu red Wifi									</a>
+					</li>
+			<li>
+							<a href="/publicaciones/blog/757-instalacion-de-routers">
+											Router neutro para pymes: instalación y configuración									</a>
+					</li>
+			<li>
+							<a href="/publicaciones/blog/358-seguridad-en-redes-wifi-abiertas">
+											Seguridad en redes wifi abiertas									</a>
+					</li>
+			<li>
+							<a href="/glosario/438-ethernet">
+											Ethernet - red de área local									</a>
+					</li>
+			<li>
+							<a href="/glosario/474-router">
+											Router - conectividad a redes 									</a>
+					</li>
+			<li>
+							<a href="/glosario/496-wifi-red-inalambrica">
+											Wifi - Conexión inalámbrica									</a>
+					</li>
+			<li>
+							<a href="/glosario/480-software-concepto-y-tipos">
+											Software - Concepto y tipos de software									</a>
+					</li>
+			<li>
+							<a href="/publicaciones/noticias/795-actualizacion-de-seguridad-critica-para-sap">
+											Actualización de seguridad crítica para SAP									</a>
+					</li>
+			<li>
+							<a href="/publicaciones/noticias/859-proteger-institucion-educativa-de-un-ciberataque">
+											¿Cómo proteger una institución educativa de un ciberataque?									</a>
+					</li>
+			<li>
+							<a href="/publicaciones/noticias/874-principales-errores-de-ciberseguridad-que-cometen-las-pymes">
+											¿Conoces los principales errores de ciberseguridad que cometen las pymes?									</a>
+					</li>
+			<li>
+							<a href="/publicaciones/blog/304-megas-reales-cual-es-mi-velocidad-de-internet">
+											¿Cuál es tu velocidad de internet? Mídelo con un test ADSL									</a>
+					</li>
+			<li>
+							<a href="/publicaciones/noticias/809-10-formas-de-mejorar-tu-cobertura-wifi">
+											10 formas de mejorar tu cobertura Wifi									</a>
+					</li>
+			<li>
+							<a href="/glosario/493-voip">
+											VoIP o Voz IP									</a>
+					</li>
+			<li>
+							<a href="/publicaciones/blog/753-optimizacion-conexion-de-red-en-teletrabajo">
+											Optimización conexión de red en teletrabajo									</a>
+					</li>
+			<li>
+							<a href="/glosario/479-shdsl">
+											SHDSL - banda ancha de subida y bajada									</a>
+					</li>
+		</ul>
+</div>
+</div></div>
+						  </div>
+						</div>
+					  </div>
+					</div>
+					  
+					</div><!-- Div añadido error programacion -->
+                  </main>
+                </div>        
+                              </div>
+            </div>
+          </div>
+        </div>
+        		                  		        <!-- Mainbottom 1 -->
+        <div id="mainbottom-1">
+          <div class="row-container">
+            <div class="container-fluid">
+              <div class="row-fluid">
+                <div class="moduletable center from_the_blog head-title-mod titles-item-home  span12"><div class="module_container"><header><h3 class="moduleTitle ">Publicaciones destacadas</h3></header><div class="mod-newsflash-adv blog mod-newsflash-adv__center from_the_blog head-title-mod titles-item-home cols-3" id="module_404">
+    <div class="row-fluid">
+    <article class="span4 item item_num0 item__module  featured" id="item_878">
+    
+<div class="item_content">
+
+		<!-- Item title -->
+	<h4 class="item_title item_title__center from_the_blog head-title-mod titles-item-home">
+				<a href="/publicaciones/noticias/878-como-saber-si-estan-rastreando-mi-dispositivo-movil" title="¿Cómo saber si están rastreando mi dispositivo móvil?">¿Cómo saber si están rastreando mi dispositivo móvil?</a>
+			</h4>
+		<!-- Introtext -->
+	<div class="item_introtext">
+		ESET, compañía líder en detección proactiva de amenazas, explica <strong>cómo reconocer si un dispositivo móvil está siendo rastreado y qué hacer al respecto.</strong>	</div>
+		
+	<!-- Read More link -->
+	</div>
+<div class="clearfix"></div>  </article>
+    <article class="span4 item item_num1 item__module  featured" id="item_877">
+    
+<div class="item_content">
+
+		<!-- Item title -->
+	<h4 class="item_title item_title__center from_the_blog head-title-mod titles-item-home">
+				<a href="/publicaciones/noticias/877-microsoft-vendera-teams-por-separado-en-europa" title="Microsoft ofrecerá Teams por separado en Europa">Microsoft ofrecerá Teams por separado en Europa</a>
+			</h4>
+		<!-- Introtext -->
+	<div class="item_introtext">
+		A partir del <strong>1 de octubre de 2023,</strong>&nbsp;Microsoft va a llevar a cabo una serie de cambios que afectan al licenciamiento de Microsoft 365 y más en concreto a todo lo que concierne a MICROSOFT TEAMS.	</div>
+		
+	<!-- Read More link -->
+	</div>
+<div class="clearfix"></div>  </article>
+    <article class="span4 item item_num2 item__module  lastItem" id="item_858">
+    
+<div class="item_content">
+
+		<!-- Item title -->
+	<h4 class="item_title item_title__center from_the_blog head-title-mod titles-item-home">
+				<a href="/publicaciones/noticias/858-proteger-mensajes-con-el-modo-confidencial" title="Proteger mensajes de correo con el modo Confidencial">Proteger mensajes de correo con el modo Confidencial</a>
+			</h4>
+		<!-- Introtext -->
+	<div class="item_introtext">
+		En cualquier tipo de empresa o negocio, una de las acciones mas recurrentes es el <strong>envío de correos</strong>. Por tanto, está claro que saber manejar la&nbsp;<strong>confidencialidad</strong>&nbsp;de los correos electrónicos se convierte en algo básico.	</div>
+		
+	<!-- Read More link -->
+	</div>
+<div class="clearfix"></div>  </article>
+    </div> 
+  <div class="clearfix"></div>
+
+  </div>
+</div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+                                                                <!-- Footer -->
+        <footer id="footer">
+          <div class="row-container">
+            <div class="footer-container">
+              <div class="container-fluid">
+                <div class="row-fluid">
+                  <section class="moduletable   span3"><div class="module_container"><header><h5 class="moduleTitle ">Ofertas y promociones</h5></header><div class="mod-menu">
+	<ul class="nav menu ">
+	<li class="item-1533"><a href="/cloud/office-365" title="Microsoft 365" >Microsoft 365</a>
+</li><li class="item-1685"><a href="/firewall" title="Firewalls" >Firewalls</a>
+</li><li class="item-836"><a href="/cloud/backup-online" title="Sistemas Backup Online" >Sistemas Backup Online</a>
+</li>	</ul>
+</div></div></section><section class="moduletable   span3"><div class="module_container"><header><h5 class="moduleTitle ">Hoy hablamos de:</h5></header><div class="mod-menu">
+	<ul class="nav menu ">
+	<li class="item-1534"><a href="/comunicaciones/centralita-virtual" title="Centralita virtual" >Centralita virtual</a>
+</li><li class="item-1684"><a href="/seguridad-informatica/netskope" title="netskope" >Netskope</a>
+</li><li class="item-1416"><a href="https://www.asesoriasempresa.es/asesorias-empresas" target="_blank" title="Directorios de asesorías" >Asesorías de empresas</a>
+</li>	</ul>
+</div></div></section><section class="moduletable   span3"><div class="module_container"><header><h5 class="moduleTitle ">Localización y contacto</h5></header><div class="mod-custom mod-custom__"  >
+	<div id="hcard-CISET-Mantenimiento-informático-y-soluciones-tecnológicas" class="vcard">
+<div class="fn"><span class="given-name">CISET. Centro de Innovación</span></div>
+<div class="adr">
+<div class="street-address">Calle Margarita Salas 16, 28919<br /> Leganés, Madrid - ESPAÑA<br />Parque Tecnológico LEGATEC</div>
+</div>
+</div>
+<ul class="nav menu social">
+<li><a class="faiconRRSS fa fa-sellsy" title="intranet CISET" href="https://cisetsl.sharepoint.com" target="_blank" rel="noopener"></a></li>
+<li><a class="fa fa-facebook" title="Síguenos en Facebook" href="https://www.facebook.com/CISET.CentroInnovacion" target="_blank" rel="noopener"></a></li>
+<li><a class="fa fa-twitter" title="Síguenos en Twitter" href="https://twitter.com/cisetsolutions" target="_blank" rel="noopener"></a></li>
+<li><a class="fa fa-linkedin" title="Síguenos en Linkedin" href="https://www.linkedin.com/company/ciset" target="_blank" rel="noopener"></a></li>
+<li><a class="fa fa-slideshare" title="Síguenos en Slideshare" href="https://www.slideshare.net/ciset" target="_blank" rel="noopener"></a></li>
+</ul></div></div></section><div class="moduletable   span3"><div class="module_container"><div class="mod-sppagebuilder  sp-page-builder" data-module_id="440">
+	<div class="page-content">
+		<div id="section-id-1656934697475" class="sppb-section" ><div class="sppb-container-inner"><div class="sppb-row"><div class="sppb-col-md-6" id="column-wrap-id-1656934697474"><div id="column-id-1656934697474" class="sppb-column" ><div class="sppb-column-addons"><div id="sppb-addon-wrapper-1656934697478" class="sppb-addon-wrapper"><div id="sppb-addon-1656934697478" class="clearfix "     ><div class="sppb-addon sppb-addon-single-image sppb-text-right "><div class="sppb-addon-content"><div class="sppb-addon-single-image-container"><img class="sppb-img-responsive" src="/images/partners/microsoft.png"  alt="Microsoft Partner" title=""   /></div></div></div><style type="text/css">#sppb-addon-wrapper-1656934697478 {
+margin:15px 0px 0px 0px;}
+#sppb-addon-1656934697478 {
+	box-shadow: 0 0 0 0 #ffffff;
+padding:0px 0px 0px 0px;}
+#sppb-addon-1656934697478 {
+}
+#sppb-addon-1656934697478.sppb-element-loaded {
+}
+@media (min-width: 768px) and (max-width: 991px) {#sppb-addon-1656934697478 {}}@media (max-width: 767px) {#sppb-addon-1656934697478 {}}</style><style type="text/css">#sppb-addon-1656934697478 img{}@media (min-width: 768px) and (max-width: 991px) {#sppb-addon-1656934697478 img{}}@media (max-width: 767px) {#sppb-addon-1656934697478 img{}}</style></div></div></div></div></div><div class="sppb-col-md-6" id="column-wrap-id-1658134111547"><div id="column-id-1658134111547" class="sppb-column" ><div class="sppb-column-addons"><div id="sppb-addon-wrapper-1658134111550" class="sppb-addon-wrapper"><div id="sppb-addon-1658134111550" class="clearfix "     ><div class="sppb-addon sppb-addon-single-image sppb-text-right "><div class="sppb-addon-content"><div class="sppb-addon-single-image-container"><a  href="https://www.ciset.es/empresa/partners/599-incibe"><img class="sppb-img-responsive" src="/images/partners/incibe-catalogo-sello.png"  alt="CISET empresa registrada en el catálogo de soluciones de ciberseguridad de INCIBE" title=""   /></a></div></div></div><style type="text/css">#sppb-addon-wrapper-1658134111550 {
+margin:15px 0px 0px 0px;}
+#sppb-addon-1658134111550 {
+	box-shadow: 0 0 0 0 #ffffff;
+}
+#sppb-addon-1658134111550 {
+}
+#sppb-addon-1658134111550.sppb-element-loaded {
+}
+@media (min-width: 768px) and (max-width: 991px) {#sppb-addon-1658134111550 {}}@media (max-width: 767px) {#sppb-addon-1658134111550 {}}</style><style type="text/css">#sppb-addon-1658134111550 img{}@media (min-width: 768px) and (max-width: 991px) {#sppb-addon-1658134111550 img{}}@media (max-width: 767px) {#sppb-addon-1658134111550 img{}}</style></div></div></div></div></div></div></div></div><style type="text/css">.sp-page-builder .page-content #section-id-1656934697475{padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px;margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px;box-shadow:0 0 0 0 #ffffff;}#column-id-1656934697474{box-shadow:0 0 0 0 #fff;}</style>	</div>
+</div>
+</div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
+              </div>
+            <div id="footer-wrapper">
+        <div class="footer-wrapper-inner">    
+          <!-- Copyright -->
+          <div id="copyright" role="contentinfo">
+            <div class="row-container">
+              <div class="footer-container">
+                <div class="container-fluid">
+                  <div class="row-fluid">
+                    
+                    <div class="copyright span12">
+                                                                  <span class="siteName"><span class="item_title_part0 item_title_part_odd item_title_part_first_half item_title_part_first">CISET.</span> <span class="item_title_part1 item_title_part_even item_title_part_first_half">Centro</span> <span class="item_title_part2 item_title_part_odd item_title_part_second_half">de</span> <span class="item_title_part3 item_title_part_even item_title_part_second_half">Innovación</span> </span>
+                            					      <span class="copy">&copy;</span>        					      <span class="year">2024</span>. Todos los derechos reservados  |  <a href="https://www.ciset.es" title="Servicios y Soluciones Informáticas"> Inicio </a>  |                                             <a class="privacy_link" href="/aviso-legal" title="Aviso legal | política de privacidad | política de cookies">Aviso legal | política de privacidad | política de cookies</a>
+  							                                          </div>
+                                       
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+                              
+    </div>
+        <script src="/templates/theme3092/js/jquery.general.js"></script>
+	<script src="/templates/theme3092/js/jquery.fancybox.pack.js"></script>
+	<script src="/templates/theme3092/js/jquery.fancybox-buttons.js"></script>
+	<script src="/templates/theme3092/js/jquery.fancybox-media.js"></script>
+	<script src="/templates/theme3092/js/jquery.fancybox-thumbs.js"></script>
+    <script src="/templates/theme3092/js/scripts.js"></script>
+      </body>
+</html>

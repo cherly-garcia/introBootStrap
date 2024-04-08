@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ejemplo de pagina con Botstrap 5</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">Curso de redes</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="historia.html">Historia</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Tipos
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="lan.html">LAN</a></li>
+                  <li><a class="dropdown-item" href="pan.html">PAN</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="wan.html">WAN</a></li>
+                </ul>
+              </li>
+
+            </ul>
+
+          </div>
+        </div>
+      </nav>
+      <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/la.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/le.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/cher.avif" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </header>
+    <section>
+      <div class="row mt-3">
+        <aside class="col-sm-12 col-md-4">
+          <div class="list-group">
+            <a href="#definicion" class="list-group-item list-group-item-action" aria-current="true">
+              Definicion
+            </a>
+            <a href="#" class="list-group-item list-group-item-action">Que es la red LAN</a>
+            <a href="#" class="list-group-item list-group-item-action">¿Cómo funcionan las redes LAN?</a>
+            <a href="#" class="list-group-item list-group-item-action">Características de las redes LAN</a>
+          </div>
+        </aside>
+            <article class="col-sm-12 col-md-8">
+              <!--Definicion de red-->
+              <div class="row">
+                <div id="definicion">
+                  <h1>Que es LAN </h1>
+                    <small> <strong> 29 de febrero 2024 por Cherly Maribel García Ramiréz</strong></small>
+                    <img src="img/r.png" alt="">
+                  <p>Se conoce como red LAN (siglas del inglés: Local Área Network, que traduce Red de Área Local) a una red informática cuyo alcance se limita a un espacio físico reducido, como una casa, un departamento o a lo sumo un edificio.
+
+                    </p>
+                    <p>A través de una red LAN pueden compartirse recursos entre varias computadoras y aparatos informáticos (como teléfonos celulares, tabletas, etc.), tales como periféricos (impresoras, proyectores, etc.), información almacenada en el servidor (o en los computadores conectados) e incluso puntos de acceso a la Internet, a pesar de hallarse en habitaciones o incluso pisos distintos.</p>
+                    <p>Una LAN, o red de área local, es un grupo de dispositivos informáticos conectados en un área localizada que suelen compartir una conexión centralizada a Internet.
+                     </p>
+                </div>
+              </div>
+              <!--/Definicion de red-->
+              <!--funcion de las redes-->
+              <div class="row">
+                <div id="funcion">
+                <h1>¿Cómo funcionan las redes LAN?</h1>
+                <p>La mayoría de las LAN se conectan a Internet en un punto central: un enrutador. Las LAN domésticas suelen utilizar un único enrutador, mientras que las LAN en espacios más grandes pueden utilizar además conmutadores de red para una entrega de paquetes más eficiente.</p>
+                <img src="img/e.gif
+                " class="rounded float-start mt-2">
+                <p>Una LAN permite a los usuarios conectarse a servidores internos, sitios web y otras LAN que pertenecen a la misma red de área amplia (WAN). Ethernet y Wi-Fi son las dos formas principales de habilitar las conexiones LAN.</p>
+                <!--/funcion de las redes-->
+                <!--caracteriatica de la red pan-->
+                </div class="row">
+                <div id="caracteristica">
+                <h1>Características de las redes PAN</h1>
+                <p>Las LAN utilizan conexiones locales, como cables Ethernet y puntos de acceso inalámbricos.</p>
+                <P>Las LAN son más rápidas porque abarcan menos distancia y tienen menos congestión.</P>
+                <P><STRong>Conexión cableada:</STRong> Las redes LAN suelen utilizar cables físicos, como cables Ethernet, para interconectar los dispositivos. Esto proporciona una conexión estable y de alta velocidad, lo que es especialmente importante para la transferencia de datos intensiva</P>
+                 <!--/caracteriatica de la red pan-->
+      </div>
+    </section>
+  </div>
+<footer>
+  <div class="row text-bg-dark mt-5 mb-5 pt-3 pb-3">
+  <p class="text-center">
+    Todos los derechos reservados 2024. Diseñador web <strong>Cherly Maribel García Ramiréz</strong>
+    </p>
+  </div>
+
+</footer>
+
+
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
